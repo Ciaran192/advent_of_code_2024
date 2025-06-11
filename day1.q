@@ -1,4 +1,4 @@
-\l get_puzzle_input.q
+\l get_day_1_input.q
 get_input[]
 
 get_difference:{[l;r]
