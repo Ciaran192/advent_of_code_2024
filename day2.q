@@ -22,4 +22,4 @@ is_good_report:{[report]
     }
 good_report_count:sum i:is_good_report each reports
 ok_report_count:sum any each (each[is_good_report]) each r (_/:)' til each count each r:reports where not i
-0N!"Accetpable report count: ", string good_report_count + ok_report_count
+0N!"Accetpable report count: ", string good_report_count + ok_report_count;
